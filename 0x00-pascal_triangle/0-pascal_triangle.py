@@ -1,9 +1,15 @@
 #!/usr/bin/python3
-"""the task :0-pascal_triangle"""
+"""
+Task: 0-pascal_triangle
+"""
 
 
 def pascal_triangle(n):
-    """returning list of integers and representing pascal triangle of n and returning empty list """
+    """
+    returning  list of integers
+    representing pascal triangle of n
+    returning empty list if n <= 0
+    """
     k = []
     if n <= 0:
         return k
