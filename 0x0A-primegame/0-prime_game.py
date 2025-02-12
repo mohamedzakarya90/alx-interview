@@ -8,7 +8,7 @@ def isWinner(x, nums):
     args->
         x (int)= number of rounds
         nums (list of int)= list of integers where each integer n is denotting
-        set of consecutive integers which is starting from 1 up to and including n
+        set of consecutive integers which is starting from 1 up to&including n
 
     returns->
         str= name of player who won the most rounds either "Ben"
